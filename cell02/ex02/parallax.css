@@ -1,0 +1,50 @@
+/* reset พื้นฐาน */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* ส่วน parallax */
+.parallax {
+    height: 100vh;                 /* เต็มความสูงจอ */
+    background-attachment: fixed;  /* ⭐ หัวใจ parallax */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* รูปที่ 1 */
+.image1 {
+    background-image: url("https://i.pinimg.com/736x/cf/f4/fc/cff4fcf3ab8968828f497c61a72c935c.jpg");
+}
+
+/* รูปที่ 2 */
+.image2 {
+    background-image: url("https://aduang-contents.okbcdn.net/profileimage/2372548_20126524247.png");
+}
+
+/* ข้อความตรงกลาง */
+.text {
+    color: white;
+    font-size: 3vw;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+
+/* กล่องสีดำตรงกลาง */
+.content {
+    height: 300px;
+    background: black;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 2vw;
+}
